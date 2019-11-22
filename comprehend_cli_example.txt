@@ -1,1 +1,5 @@
 aws comprehend detect-sentiment --region us-east-1 --language-code "en" --text "It is raining today in Seattle and I am angry."
+
+aws comprehend detect-sentiment --region us-east-1 --language-code "en" --text "It is raining today in Seattle and I am happy."
+
+aws comprehend detect-sentiment --region us-east-1 --language-code "en" --text "My reaction was one of ambivalence."
